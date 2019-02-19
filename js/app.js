@@ -14,11 +14,18 @@ fullNamein.innerHTML = 'Ronald McDonald';
 agein = document.getElementById('age');
 agein.innerHTML = "63 Years Old";
 //5. In the div id data section, create a div with an id of job and give it the following information: Clown and Restauranteur.
-
+var divElem = document.createElement('div');
+divElem.id = 'job';
+divElem.innerHTML = "Clown and Restauranteur";
+data.appendChild(divElem);
 //6. In the div id data section, create a div with an id of hobbies and give it the following information: Long romantic walks on the beach, candle light Big Mac dinners and tormenting the King.
-
+var divElem2 = document.createElement('div');
+divElem2.id = 'hobbies';
+divElem2.innerHTML = "Long romantic walks on the beach, cande light Big Mac dinners, and tormenting the King."
+data.appendChild(divElem2);
 //7. In the div id data section, create a div with an id of location and give it the following information: Honolulu, HI.
-
+var divElem3 = document.createElement('div');
+divElem3.id = 'location';
 //8. In the div id data section, create a div with an id of wants and give it the following information: Looking for a Mrs. McDonald.
 
 //9. In the div id profile section, create a paragraph element with an id of pro2 and create a your own profile for Ronald (at least 2 sentences).
