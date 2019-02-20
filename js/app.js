@@ -54,11 +54,17 @@ matchem[1].innerHTML = 'Peko Chan';
 agem[1].innerHTML = 68;
  //Final Boss Create your own profile into the page:
  //change image to match your profile
+ var imgChange = document.getElementsByClassName('other');
+ imgChange[2].src = 'https://www.geek.com/wp-content/uploads/2018/04/spongebobnote1-625x352.png'
  //div with class name of firstName
+ matchem[2].innerHTML = 'Spongebob';
  //div with class name of otherAge
+ agem[2].innerHTML = 32;
  //div with class name of status
+ statem[2].innerHTML = 'Single Fry Cook';
  //div with class anem of Motto
-
+var mottem = document.getElementsByClassName('motto');
+mottem[2].innerHTML = 'Welcome to my Krusty Krab';
 
 
 
