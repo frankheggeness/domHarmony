@@ -34,11 +34,17 @@ divElem4.id = 'wants';
 divElem4.innerHTML = 'Looking for a Mrs. McDonald.';
 data.appendChild(divElem4);
 //9. In the div id profile section, create a paragraph element with an id of pro2 and create a your own profile for Ronald (at least 2 sentences).
-
+var pElem = document.createElement('p');
+pElem.id = 'pro2';
+pElem.innerHTML = 'Lemme eat the burger like groceries.'
+profile.appendChild(pElem);
 //10. In the div id matches section, target the first div element with the class name of firstName and change Name to Wendy.
+var matchem = document.getElementsByClassName('firstName');
+matchem[0].innerHTML = 'Wendy';
 
 //11. In the div id matches section, target the first div element with the class name of otherAge and change Age to 48.
-
+var agem = document.getElementsByClassName('otherAge');
+agem[0].innerHTML = 48;
 //12. In the div id matches section, target the first div element with the class name of status and change Status to Single Mother.
 
 //13. In the div id matches section, target the second div element with the class name of firstName and change Name to Peko Chan.
